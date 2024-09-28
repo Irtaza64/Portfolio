@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+
+header {
+  width: 375px;
+  height: 48px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  font-family: "Poppins";
+}
+
+#my-logo {
+  color: #6070ff;
+  height: 40px;
+  width: 100px;
+  padding: 10px 12px 10px 12px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+}
+
+#my-logo > span {
+  height: 20px;
+  width: 76px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+#hamburger-container {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+#hamburger {
+  width: 24px;
+  height: 24px;
+  background-image: url(Icon\ -\ Menu.png);
+}
+
+#info-container {
+  height: 604px;
+  width: 375px;
+  padding: 114px 24px 0px 24px;
+  background-image: url(header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+}
+
+#name {
+  width: 327px;
+  height: 150px;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #172b4d;
+}
+
+#info-text {
+  width: 365px;
+  height: 604px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+#logos-container {
+  margin-top: 14px;
+  width: 170px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos {
+  width: 20px;
+  height: 20px;
+  color: #505f79;
+  background-repeat: no-repeat;
+}
