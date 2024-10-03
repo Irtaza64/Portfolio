@@ -17,7 +17,8 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 20px 20px;
-  font-family: "Poppins";
+
+  /* font-family: "Poppins", sans-serif; */
 }
 
 #my-logo {
