@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 header {
