@@ -1,6 +1,7 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -11,6 +12,7 @@ body {
 header {
   width: 375px;
   height: 48px;
+
   /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
@@ -23,6 +25,7 @@ header {
   height: 40px;
   width: 100px;
   padding: 10px 12px 10px 12px;
+
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
@@ -51,7 +54,7 @@ header {
 #info-container {
   height: 604px;
   width: 375px;
-  padding: 114px 24px 0px 24px;
+  padding: 114px 24px 0 24px;
   background-image: url(header-shapes\ mobile.png);
   background-repeat: no-repeat;
 }
