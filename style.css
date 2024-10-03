@@ -98,15 +98,19 @@ header {
 #logos-container :nth-child(1) {
   background-image: url(Vector3.png);
 }
+
 #logos-container :nth-child(2) {
   background-image: url(Linkedin.png);
 }
+
 #logos-container :nth-child(3) {
   background-image: url(Vector.png);
 }
+
 #logos-container :nth-child(4) {
   background-image: url(Vector1.png);
 }
+
 #logos-container :nth-child(5) {
   background-image: url(Vector2.png);
 }
