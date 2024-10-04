@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   /* margin: 0;
   padding: 0; */
@@ -146,11 +145,10 @@ li {
   height: 552px;
   border-radius: 16px;
   padding: 16px;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   display: flex;
   flex-direction: column;
   gap: 12px;
-
 }
 
 .img-container {
@@ -160,14 +158,14 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
   /* border: 1px solid red; */
 }
-
 
 .cards-text-container {
   width: 100%;
   height: 288px;
-  
+
   /* border: 1px solid red; */
 }
 
@@ -175,10 +173,10 @@ li {
   width: 100%;
   height: 36px;
   font-size: 32px;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   font-weight: bold;
-  color: #172B4D;
+  color: #172b4d;
   line-height: 44px;
   margin-bottom: 12px;
 }
@@ -201,12 +199,12 @@ li {
   height: 8px;
   width: 8px;
   border-radius: 50%;
-  background-color: #7A869A;
+  background-color: #7a869a;
 }
 
 .dot-text {
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .tags-container {
@@ -222,10 +220,10 @@ li {
   height: 24px;
   border-radius: 8px;
   padding: 4px 12px 4px 12px;
-  background-color: #EBEBFF;
+  background-color: #ebebff;
   font-size: 12px;
   line-height: 16px;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .action {
@@ -238,24 +236,27 @@ button {
   height: 48px;
   border-radius: 8px;
   padding: 12px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   background-color: white;
   margin-top: 35px;
   font-size: 17px;
   text-align: center;
   font-weight: 500;
-  color: #396DF2;
+  color: #396df2;
 }
- 
+
 #img-container-1 {
-    background-image: url(card-img-1.jpg);
-  }
-  #img-container-2 {
-    background-image: url(card-img-2.jpg);
-  }
-  #img-container-3 {
-    background-image: url(card-img-3.jpg);
-  }
-  #img-container-4 {
-    background-image: url(card-img-4.jpg);
-  }
+  background-image: url(card-img-1.jpg);
+}
+
+#img-container-2 {
+  background-image: url(card-img-2.jpg);
+}
+
+#img-container-3 {
+  background-image: url(card-img-3.jpg);
+}
+
+#img-container-4 {
+  background-image: url(card-img-4.jpg);
+}
