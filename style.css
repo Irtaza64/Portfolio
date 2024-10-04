@@ -1,53 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
 
   /* display: flex; */
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 header {
-  width: 375px;
+  width: 100%;
+  max-width: 375px;
   height: 48px;
-
-  /* border: 1px solid red; */
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
 }
 
 #my-logo {
+  display: flex;
+  align-items: center; /* Vertically center the logo text */
   color: #6070ff;
   height: 40px;
-  width: 100px;
-  padding: 10px 12px 10px 12px;
-
-  /* border: 1px solid black; */
-  display: flex;
-  align-items: center;
+  width: auto; /* Change width to auto */
 }
 
 #my-logo > span {
-  height: 20px;
-  width: 76px;
   font-size: 18px;
   font-weight: 700;
-  line-height: 20px;
+  line-height: 20px; /* Adjust line-height for better alignment */
 }
 
 #hamburger-container {
   width: 40px;
   height: 40px;
   padding: 8px;
+  display: flex;
+  justify-content: center; /* Horizontally center the icon */
+  align-items: center; /* Vertically center the icon */
 }
 
 #hamburger {
   width: 24px;
   height: 24px;
   background-image: url(Icon\ -\ Menu.png);
+  background-position: center;
+  background-size: cover;
 }
 
 #info-container {
@@ -56,6 +64,8 @@ header {
   padding: 114px 24px 0 24px;
   background-image: url(header-shapes\ mobile.png);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 #name {
@@ -117,4 +127,136 @@ header {
 
 li {
   list-style-type: none;
+}
+
+#works-section {
+  width: 375px;
+  height: 2788px;
+  padding: 114px 24px 114px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+}
+
+.cards-container {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  padding: 16px;
+  border: 1px solid #dfe1e6;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.img-container {
+  width: 100%;
+  height: 220px;
+  border-radius: 8px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /* border: 1px solid red; */
+}
+
+.cards-text-container {
+  width: 100%;
+  height: 288px;
+
+  /* border: 1px solid red; */
+}
+
+.project-title {
+  width: 100%;
+  height: 36px;
+  font-size: 32px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #172b4d;
+  line-height: 44px;
+  margin-bottom: 12px;
+}
+
+.frame2 {
+  height: 32px;
+  width: 100%;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.frame2-text {
+  font-size: 16px;
+  color: #344563;
+  font-weight: 600px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #7a869a;
+}
+
+.dot-text {
+  font-size: 13px;
+  color: #7a869a;
+}
+
+.tags-container {
+  height: 24px;
+  width: 57px;
+  display: flex;
+  gap: 8px;
+  text-align: center;
+}
+
+.tags {
+  width: 90px;
+  height: 24px;
+  border-radius: 8px;
+  padding: 4px 12px 4px 12px;
+  background-color: #ebebff;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+}
+
+.action {
+  width: 295px;
+  height: 72px;
+}
+
+button {
+  width: 126px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #6070ff;
+  background-color: white;
+  margin-top: 35px;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 500;
+  color: #396df2;
+}
+
+#img-container-1 {
+  background-image: url(card-img-1.jpg);
+}
+
+#img-container-2 {
+  background-image: url(card-img-2.jpg);
+}
+
+#img-container-3 {
+  background-image: url(card-img-3.jpg);
+}
+
+#img-container-4 {
+  background-image: url(card-img-4.jpg);
 }
