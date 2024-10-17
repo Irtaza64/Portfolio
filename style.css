@@ -260,3 +260,131 @@ button {
 #img-container-4 {
   background-image: url(card-img-4.jpg);
 }
+
+#about-me-container {
+  height: 1062px;
+  width: 375px;
+  padding: 114px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+  /* border: 1px solid red; */
+}
+
+#about-me-top {
+  width: 327px;
+  height: 346px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#about-me-top > h1 {
+  height: 35px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #172B4D;
+  line-height: 52px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#about-me-top > p {
+  padding: 0px;
+  height: 147px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+#about-me-top > button {
+  width: 162px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+
+
+#skill-list {
+  height: 464px;
+  width: 327px;
+  /* border: 1px solid red; */
+}
+
+#frame12 {
+  height: 320px;
+  width: 327px;
+}
+
+.frame-12-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.frame-12-text > h1 {
+  height: 72px;
+  width: 327px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: left;
+  padding-left: 14px;
+  margin-top: 0px;
+  }
+
+  .arrow {
+    width: 17px;
+    height: 8px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-right: 40px;
+    background-image: url(Union.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+  }
+
+  #languages-list-container {
+    height: 248px;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .languages-container {
+    height: 66px;
+    width: 303px;
+    border-radius: 8px;
+    background-color: #F7F7F9;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 14px;
+  }
+
+  .languages-img-container {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+  }
+
+  .languages-container > span {
+    height: 24px;
+    width: 215px;
+  }
+
+  #js-pic {
+    background-image: url(js.png);
+  }
+  #css-pic {
+    background-image: url(css.png);
+  }
+  #html-pic {
+    background-image: url(html.png);
+  }
