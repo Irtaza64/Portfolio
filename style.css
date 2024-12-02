@@ -13,6 +13,7 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -25,6 +26,11 @@ header {
   padding: 0 20px;
   box-sizing: border-box;
   margin-top: 20px;
+}
+
+.languages-container > span {
+  height: 24px;
+  width: 215px;
 }
 
 #my-logo {
@@ -158,15 +164,11 @@ li {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
-  /* border: 1px solid red; */
 }
 
 .cards-text-container {
   width: 100%;
   height: 288px;
-
-  /* border: 1px solid red; */
 }
 
 .project-title {
@@ -268,7 +270,6 @@ button {
   display: flex;
   flex-direction: column;
   gap: 52px;
-  /* border: 1px solid red; */
 }
 
 #about-me-top {
@@ -279,18 +280,29 @@ button {
   gap: 12px;
 }
 
+.frame-12-text > h1 {
+  height: 72px;
+  width: 327px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: left;
+  padding-left: 14px;
+  margin-top: 0;
+}
+
 #about-me-top > h1 {
   height: 35px;
   font-size: 40px;
   font-weight: 700;
-  color: #172B4D;
+  color: #172b4d;
   line-height: 52px;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #about-me-top > p {
-  padding: 0px;
+  padding: 0;
   height: 147px;
   font-size: 16px;
   line-height: 24px;
@@ -304,12 +316,9 @@ button {
   padding: 12px;
 }
 
-
-
 #skill-list {
   height: 464px;
   width: 327px;
-  /* border: 1px solid red; */
 }
 
 #frame12 {
@@ -323,68 +332,313 @@ button {
   align-items: center;
 }
 
-.frame-12-text > h1 {
-  height: 72px;
+.arrow {
+  width: 17px;
+  height: 8px;
+  margin-top: 20px;
+  margin-right: 40px;
+  background-image: url(Union.png);
+}
+
+#languages-list-container {
+  height: 248px;
   width: 327px;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 100px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+}
+
+.languages-container {
+  height: 66px;
+  width: 303px;
+  border-radius: 8px;
+  background-color: #f7f7f9;
+  display: flex;
+  align-items: center;
+  gap: 20px;
   padding-left: 14px;
-  margin-top: 0px;
+}
+
+.languages-img-container {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
+
+#js-pic {
+  background-image: url(js.png);
+}
+
+#css-pic {
+  background-image: url(css.png);
+}
+
+#html-pic {
+  background-image: url(html.png);
+}
+
+/* Contact Section */
+.contact {
+  width: 375px;
+  height: 779px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
+  color: #fff;
+  background-image: url(./src/headerandfooter/contact\ form\ shapes-mobile.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 44px;
+}
+
+.contact-form input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 327px;
+  height: 48px;
+}
+
+.contact-form textarea {
+  width: 327px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 170px;
+}
+
+.section-title-contact {
+  width: 327px;
+  height: 35px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-align: center;  /* Centers text horizontally */
+  margin-bottom: 0;   /* Corrected margin syntax */
+}
+
+.contact-description {
+  width: 327px;
+  height: 115px;
+  font-size: 16px;
+  color: white;
+  text-align: center;  /* Centers text horizontally */
+  margin-bottom: 0;   /* Corrected margin syntax */
+}
+
+.contact-form .submit-btn {
+  background-color: white;
+  color: #5751f5; /* Ensure text color matches the button background */
+  padding: 12px 16px; /* Adjust the padding as per your specification */
+  border: none;
+  border-radius: 8px 8px 8px 8px; /* Specific border-radius */
+  font-size: 16px;
+  cursor: pointer;
+  width: 142px; /* Set to Hug width */
+  height: 48px; /* Set to Hug height */
+  opacity: 1; /* To make sure the button is fully visible */
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #5751f5; /* Change background color on hover */
+  color: white; /* Ensure the text becomes readable on hover */
+}
+
+.contact-me {
+  width: 100%;
+  height: 779px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-me .blue {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
+  color: #fff;
+  padding: 114px 24px;
+  background-image: url(src/contact\ form\ shapes-mobile.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
-  .arrow {
-    width: 17px;
-    height: 8px;
-    /* border: 1px solid red; */
-    margin-top: 20px;
-    margin-right: 40px;
-    background-image: url(Union.png);
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* background-size: cover; */
+  header {
+    max-width: 1440px;
+    padding: 25px 142px;
+  }
+
+  #hamburger-container {
+    display: none;
+  }
+
+  #info-container {
+    width: 100%;
+    height: 846px;
+    padding: 200px 260px;
+    background-image: url(Header\ bg.png);
+  }
+
+  #name {
+    width: 920px;
+    height: auto;
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  #info-text {
+    width: 920px;
+    height: auto;
+  }
+
+  #works-section {
+    width: 100%;
+    height: auto;
+    padding: 142px;
+  }
+
+  .cards-container {
+    width: 100%;
+    height: 496px;
+    flex-direction: row;
+    gap: 46px;
+    padding: 24px;
+  }
+
+  .cards-container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .img-container {
+    width: 50%;
+    height: 448px;
+  }
+
+  .cards-text-container {
+    width: 50%;
+    height: 448px;
+    padding: 24px;
+  }
+
+  .project-title {
+    font-size: 40px;
+  }
+
+  .tags-container {
+    width: auto;
+    gap: 8px;
+  }
+
+  #about-me-container {
+    width: 100%;
+    height: auto;
+    padding: 142px;
+    flex-direction: row;
+    gap: 37px;
+  }
+
+  #about-me-top {
+    width: 40%;
+    height: auto;
+  }
+
+  #skill-list {
+    width: 60%;
+    height: auto;
   }
 
   #languages-list-container {
-    height: 248px;
-    width: 327px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 12px;
-    padding: 12px;
+    flex-direction: row;
+    height: auto;
   }
 
   .languages-container {
-    height: 66px;
-    width: 303px;
-    border-radius: 8px;
-    background-color: #F7F7F9;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding-left: 14px;
-  }
-
-  .languages-img-container {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
-    /* border: 1px solid black; */
+    width: 122px;
+    height: 120px;
+    flex-direction: column;
+    padding: 12px;
+    gap: 16px;
   }
 
   .languages-container > span {
-    height: 24px;
-    width: 215px;
+    width: auto;
   }
 
-  #js-pic {
-    background-image: url(js.png);
+  .contact {
+    width: 100%;
+    height: 846px;
+    background-image: url(contact\ form\ background\ shapes.png);
   }
-  #css-pic {
-    background-image: url(css.png);
+
+  .contact-form {
+    width: 447px;
+    margin: 0 auto;
   }
-  #html-pic {
-    background-image: url(html.png);
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
   }
+
+  .section-title-contact,
+  .contact-description {
+    width: 569px;
+    margin: 0 auto;
+  }
+
+  .contact-description {
+    height: auto;
+  }
+
+  .contact-form .submit-btn {
+    margin: 0 auto;
+  }
+}
+
+.desktop-menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-menu {
+    display: flex;
+    gap: 32px;
+  }
+
+  .desktop-menu a {
+    color: #344563;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    transition: color 0.3s ease;
+  }
+
+  .desktop-menu a:hover {
+    color: #6070ff;
+  }
+}
