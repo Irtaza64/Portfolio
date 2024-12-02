@@ -16,6 +16,12 @@
         <span>My logo</span>
       </div>
 
+      <nav class="desktop-menu">
+        <a href="#works-section">Portfolio</a>
+        <a href="#about-me-container">About</a>
+        <a href="#contactme">Contact</a>
+      </nav>
+
       <div id="hamburger-container">
         <div id="hamburger"></div>
       </div>
@@ -165,7 +171,77 @@
       </div>
     </section>
 
-    
+    <section id="about-me-container">
+      <div id="about-me-top">
+        <h1>About Myself</h1>
+        <p>Hello I’m a software developer! I can help you build a product , 
+          feature or website. Look through some of my work and experience! 
+          If you like what you see and have a project you need coded, 
+          don’t hesitate to contact me.</p>
+          <div>
+            <span id="lets-connect">LET'S CONNECT</span>
+          </div>
+          <div id="logos-container">
+              <li class="logos"></li>
+              <li class="logos"></li>
+              <li class="logos"></li>
+              <li class="logos"></li>
+              <li class="logos"></li>
+          </div>
+
+          <button>Get My Resume</button>
+      </div>
+
+      <div id="skill-list">
+        <div id="frame-12">
+          <div class="frame-12-text">
+            <h1>Languages</h1>
+            <div class="arrow"></div>
+          </div>
+          <div id="languages-list-container">
+            <div class="languages-container">
+              <div id="js-pic" class="languages-img-container"></div>
+              <span>JavaScript</span>
+            </div>
+            <div class="languages-container">
+              <div id="html-pic" class="languages-img-container"></div>
+              <span>HTML</span>
+            </div>
+            <div class="languages-container">
+              <div id="css-pic" class="languages-img-container"></div>
+              <span>CSS</span>
+            </div>
+            
+          </div>
+          <div></div>
+        </div>
+        <div class="frame-12-text">
+          <h1>Frameworks</h1>
+          <div class="arrow"></div>
+        </div>
+        <div class="frame-12-text">
+          <h1>Skills</h1>
+          <div class="arrow"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactme" class="contact">
+      <h2 class="section-title-contact">Contact Me</h2>
+      
+      <!-- The new paragraph with specified styles -->
+      <div class="contact-description">
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+          I’d love to help with it!</p>
+      </div>
+      
+      <form action="#" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn">Get in Touch</button>
+      </form>
+    </section>
 
   </body>
 </html>
